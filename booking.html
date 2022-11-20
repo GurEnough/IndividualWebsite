@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pizza Site</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><img src="img/pizzalogo.png" alt=""></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link active">Головне меню</a>
+                    <a href="about.html" class="nav-item nav-link">Про нас</a>
+                    <a href="feature.html" class="nav-item nav-link">Особливості</a>
+                    <a href="menu.html" class="nav-item nav-link">Меню</a>
+                    <a href="booking.html" class="nav-item nav-link">Бронювання</a>
+                    <a href="contact.html" class="nav-item nav-link">Контакти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-header mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Забронювати столик</h2>
+                </div>
+                <div class="col-12">
+                    <a href="index.html">Головне меню</a>
+                    <a href="booking.html">Бронювання</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="booking">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="booking-content">
+                        <div class="section-header">
+                            <p>Забронювати столик</p>
+                            <h2>Забронюйте столик для приватних вечерь та щасливих годин</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Ми даємо можливість швидко забронювати місце в нашій піцерії - вся процедура
+                                відбувається в режимі онлайн, щоб зарезервувати столик, вам не потрібно нікуди дзвонити
+                                і тим більше їхати. Насолоджуйтеся зручністю!
+                            </p>
+                            <p>
+                                У нашій піцерії ви можете насолодитися смачною піцою, приємною атмосферою, відпочити з
+                                друзями, родичами... та ким завгодно! Приходьте, пригостимо ;)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="booking-form">
+                        <form>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Ім'я" required="required" />
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="far fa-user"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Пошта" required="required" />
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Мобільний телефон"
+                                        required="required" />
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="fa fa-mobile-alt"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group date" id="date" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" placeholder="Дата"
+                                        data-target="#date" data-toggle="datetimepicker" />
+                                    <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
+                                        <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group time" id="time" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" placeholder="Час"
+                                        data-target="#time" data-toggle="datetimepicker" />
+                                    <div class="input-group-append" data-target="#time" data-toggle="datetimepicker">
+                                        <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="input-group">
+                                    <select class="custom-select form-control">
+                                        <option selected>Гість</option>
+                                        <option value="1">1 Гість</option>
+                                        <option value="2">2 Гостя</option>
+                                        <option value="3">3 Гостя</option>
+                                        <option value="4">4 Гостя</option>
+                                        <option value="5">5 Гостей</option>
+                                        <option value="6">6 Гостей</option>
+                                        <option value="7">7 Гостей</option>
+                                        <option value="8">8 Гостей</option>
+                                        <option value="9">9 Гостей</option>
+                                        <option value="10">10 Гостей</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="fa fa-chevron-down"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn custom-btn" type="submit">Забронювати зараз</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Меню їжі</p>
+                <h2>Меню смачної їжі</h2>
+            </div>
+            <div class="menu-tab">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#pizza">Піцци</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#burgers">Бургери</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#snacks">Снеки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#beverages">Напої</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="pizza" class="container tab-pane active">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-pizza-vegetables-and-mushrooms.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Овочі та гриби</span> <strong>150 грн</strong></h3>
+                                        <p>Болгарський перець, печериці, томати, червона цибуля, маслини, сир фета,
+                                            моцарела, томатний соус пілаті, орегано.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-pizza-havai.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Гавайська</span> <strong>120 грн</strong></h3>
+                                        <p>Філе курки, ананас, шинка, сир моцарела, томатний соус пілаті.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-pizza-chillie.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чилі</span> <strong>200 грн</strong></h3>
+                                        <p>Перець халапеньо, болгарський перець, яловичина (фарш), пепероні, соус чилі,
+                                            мариновані огірочки, червона цибуля, моцарела, томатний соус.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-pizza-chisburger.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чизбургер та Піцца</span> <strong>300 грн</strong></h3>
+                                        <p>Бекон, яловичина (фарш), сирний соус, томати, мариновані огірочки, базилік,
+                                            червона цибуля, сир моцарела, кунжут.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-pizza-chef.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Шеф-Піцца</span> <strong>350 грн</strong></h3>
+                                        <p>Бекон, томати, листя салату, ковбаски пепероні, сир моцарела, сир пармезан,
+                                            цезар-соус.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="img/menu-pizza-img.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="burgers" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-burger-double-cheseeburger.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Дабл чізбургер яловичий</span> <strong>100 грн</strong></h3>
+                                        <p>Булочка, подвійна котлета яловича, подвійний сир чеддер, бекон, соус папрік,
+                                            салат айсберг, помідори, огірок маринований, цибуля червона.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-burger-cock.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чізбургер курячий</span> <strong>150 грн</strong></h3>
+                                        <p>Булочка, котлета куряча, сир чеддер, бекон, соус медово-гірчичний, салат
+                                            айсберг, помідори, огірки мариновані, цибуля червона.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-burger-swizerland.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чізбургер швейцарський</span> <strong>120 грн</strong></h3>
+                                        <p>Булочка, котлета яловича, сир моцарела, бекон, соус Цезар, салат айсберг,
+                                            цибуля смажена, печериці смажені, цибуля червона.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-burger-yawn.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чізбургер яловичий</span> <strong>200 грн</strong></h3>
+                                        <p>Булочка, котлета яловича, сир чеддер, бекон, соус паприк, салат айсберг,
+                                            помідори, огірки мариновані, цибуля червона.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-burger-pepper.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Бургер пеппер</span> <strong>250 грн</strong></h3>
+                                        <p>Булочка, котлета яловича, соус папрік, салат айсберг, перець маринований,
+                                            цибуля червона, крем бальзамік.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="img/menu-burger-img.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="snacks" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-snacks-pringles.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чіпси "Pringles" 200g</span> <strong>100 грн</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-snacks-lays.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чіпси "Lays" 200g</span> <strong>70 грн</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-snacks-nachos.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Чіпси "Nachos" 150g</span> <strong>150 грн</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-snacks-cheetos.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Смачні палички "Cheetos" 150g</span> <strong>100 грн</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-snacks-bigbob.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Арахіс "Big Bob" 100g</span> <strong>50 грн</strong></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="img/menu-snacks-img.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="beverages" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-beverage-calabria.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Коктейль "Подружки"</span> <strong>100 грн</strong></h3>
+                                        <p>Сік апельсиновий, Чинзано б'янко, горілка Снірновъ №21, сироп Гренадін,
+                                            апельсин.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-beverage-girlfriends.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Коктейль "Перчини Лайт"</span> <strong>120 грн</strong></h3>
+                                        <p>Чинзано россо, вишневий сік, малинове пюре, вишня, сироп Чорниця.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-beverage-perchini-light.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Коктейль "Оранж"</span> <strong>150 грн</strong></h3>
+                                        <p>Мандариновий фреш, Чинзано б'янко, цукровий сироп, розмарин.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-beverage-orange.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Коктейль "Перчини"</span> <strong>200 грн</strong></h3>
+                                        <p>Лікер Лімончелло, полуниця, сироп Гренадін, горілка Смирновъ №21,
+                                            апельсиновий сік.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu-beverage-perchini.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Коктейль "Калабрія"</span> <strong>250 грн</strong></h3>
+                                        <p>Пікантності насиченому коктейлю зі світлого рому, вишневого соку і
+                                            полуничного сиропу надає соус Крем-бальзамік.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="img/menu-beverage-img.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-contact">
+                                <h2>Наш адрес</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>бул.Будівельників 27, Кам'янське, Україна</p>
+                                <p><i class="fa fa-phone-alt"></i>+380 68 123 45 67</p>
+                                <p><i class="fa fa-envelope"></i>max@gmail.com</p>
+                                <div class="footer-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-link">
+                                <h2>Швидкі посилання</h2>
+                                <a href="">Умови користування</a>
+                                <a href="">Політика приватності</a>
+                                <a href="">Кукі</a>
+                                <a href="">Допомога</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer-newsletter">
+                        <h2>Розсилка новин</h2>
+                        <p>
+                            Якщо ви хочете отримувати спам-розсилку з новинами про нашу піцерію, прийдешніми акціями та
+                            заходами на вашу пошту - сміливо вводіть її нижче і натискайте кнопку "Відправити"
+                        </p>
+                        <div class="form">
+                            <input class="form-control" placeholder="Пошту вводити сюди">
+                            <button class="btn custom-btn">Відправити</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>Copyright &copy; <a href="#">Max's Pizza</a>, All Right Reserved.</p>
+                <p>Designed By <a href="">Hurinov Maxim</a></p>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
